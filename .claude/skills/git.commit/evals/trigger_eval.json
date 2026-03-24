@@ -1,0 +1,82 @@
+[
+  {
+    "query": "我剛改完登入頁，修了幾個 bug，幫我 commit",
+    "should_trigger": true
+  },
+  {
+    "query": "src/components/Header.tsx 加了 dark mode 切換，還有調整了一些 RWD，幫我整理 commit，不確定要不要拆開",
+    "should_trigger": true
+  },
+  {
+    "query": "package.json 更新了好幾個 dependencies，加上 README 也順便改了，幫我 commit 這些東西",
+    "should_trigger": true
+  },
+  {
+    "query": "幫我寫這次修改的 commit message，我在 api/auth.ts 加了 refresh token 的邏輯",
+    "should_trigger": true
+  },
+  {
+    "query": "我想把這次的改動 stage 然後 commit，有新增 feature 也有 fix，你幫我看怎麼分",
+    "should_trigger": true
+  },
+  {
+    "query": "git 現在有一堆 unstaged changes，幫我整理一下然後 commit",
+    "should_trigger": true
+  },
+  {
+    "query": "我用 git add -p 只暫存了 formatDate 的修正，現在幫我生 commit message",
+    "should_trigger": true
+  },
+  {
+    "query": "這個 PR 要合進去了，幫我確認 commit 訊息寫得對不對，要符合 conventional commits",
+    "should_trigger": true
+  },
+  {
+    "query": "我做了很多改動，src/utils/ 底下有幾個 refactor 還有一個新的 helper function，幫我規劃 commit 策略",
+    "should_trigger": true
+  },
+  {
+    "query": "fix: typo in README 這樣的 commit 訊息 OK 嗎？幫我完整走一次 commit 流程",
+    "should_trigger": true
+  },
+  {
+    "query": "幫我 review 這段 TypeScript 程式碼，看看有沒有 bug",
+    "should_trigger": false
+  },
+  {
+    "query": "我想了解 git rebase 跟 merge 的差別是什麼",
+    "should_trigger": false
+  },
+  {
+    "query": "幫我寫一個 GitHub Actions workflow，push 後自動跑測試",
+    "should_trigger": false
+  },
+  {
+    "query": "怎麼看 git log 裡某個檔案的修改歷史？",
+    "should_trigger": false
+  },
+  {
+    "query": "我的 git push 被拒絕了，說是 non-fast-forward，怎麼辦",
+    "should_trigger": false
+  },
+  {
+    "query": "幫我整理一下這個 repo 的目錄結構，感覺有點亂",
+    "should_trigger": false
+  },
+  {
+    "query": "我要在 GitHub 上開一個 PR，title 和 description 怎麼寫比較好",
+    "should_trigger": false
+  },
+  {
+    "query": "git stash 的使用時機是什麼，跟 branch 比較哪個好",
+    "should_trigger": false
+  },
+  {
+    "query": "幫我 review 我的 commit history，看有沒有需要 squash 的",
+    "should_trigger": false
+  },
+  {
+    "query": "我 commit 完發現訊息寫錯了，怎麼修改上一個 commit 的 message",
+    "should_trigger": false
+  }
+]
