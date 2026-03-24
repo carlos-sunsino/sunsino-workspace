@@ -1,0 +1,3 @@
+[submodule "shared/sunsino-docs"]
+	path = shared/sunsino-docs
+	url = https://github.com/sunsino-venture-group/sunsino-docs.git
