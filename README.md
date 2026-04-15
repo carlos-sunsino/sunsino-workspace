@@ -9,7 +9,7 @@ Sunsino 創投生態平台的產品開發工作空間，彙整雙平台（DealFo
 | [00-inbox/](./00-inbox/) | 待整理的輸入文件，包含過往的 BRD、MRD 與市場研究 |
 | [01-local-setup/](./01-local-setup/) | 本機開發環境設定指引 |
 | [02-notes/](./02-notes/) | 技術研究與設計筆記 |
-| [shared/sunsino-docs](./shared/sunsino-docs/) | 正式文件庫（submodule）：願景、計畫、功能規格、架構決策 |
+| [shared/sunsino-ssot](./shared/sunsino-ssot/) | 正式文件庫（submodule）：願景、計畫、功能規格、架構決策 |
 | [shared/sunsino-prompts](./shared/sunsino-prompts/) | Claude 提示詞與規範集（submodule） |
 
 ## 雙平台架構
@@ -25,7 +25,7 @@ graph LR
 
 ## 正式文件
 
-詳細的需求規格、架構設計與產品規劃請參閱 [shared/sunsino-docs](./shared/sunsino-docs/)。
+詳細的需求規格、架構設計與產品規劃請參閱 [shared/sunsino-ssot](./shared/sunsino-ssot/)。
 
 ## Submodules
 

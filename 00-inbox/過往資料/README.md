@@ -1,6 +1,6 @@
 # 過往資料
 
-歸檔的初期規劃文件，作為 [shared/sunsino-docs](../../shared/sunsino-docs/) 正式文件的原始素材與歷史參考。
+歸檔的初期規劃文件，作為 [shared/sunsino-ssot](../../shared/sunsino-ssot/) 正式文件的原始素材與歷史參考。
 
 ## 內容
 
@@ -18,5 +18,5 @@
 
 ## 相關資源
 
-- 已整理的正式文件：[shared/sunsino-docs/docs/00-vision/](../../shared/sunsino-docs/docs/00-vision/)
+- 已整理的正式文件：[shared/sunsino-ssot/docs/00-vision/](../../shared/sunsino-ssot/docs/00-vision/)
 - 工作空間總覽：[根目錄 README](../../README.md)
