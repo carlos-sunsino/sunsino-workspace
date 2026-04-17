@@ -1,5 +1,231 @@
 {
   "version": 2,
-  "resources": {},
+  "presets": [
+    "base",
+    "product",
+    "system-analysis",
+    "km"
+  ],
+  "resources": {
+    "skill/doc-readme": {
+      "type": "skill",
+      "name": "doc-readme",
+      "hash": "1a64b210f1a452d8ec5eaea1b4d787073cd3cd986cc7d71d4420257b4c3cd005",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.344Z",
+      "updatedAt": "2026-04-17T15:31:02.344Z"
+    },
+    "skill/doc-claude": {
+      "type": "skill",
+      "name": "doc-claude",
+      "hash": "725340cce0c516ccc600bf7af8b5683fb8e5c280123f869a3b916fede3afb66c",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.344Z",
+      "updatedAt": "2026-04-17T15:31:02.344Z"
+    },
+    "skill/git-commit": {
+      "type": "skill",
+      "name": "git-commit",
+      "hash": "b0f4b86b0c12d277fb0c53f76738172165eca75ce790e71c73255a0a7be84e73",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.345Z",
+      "updatedAt": "2026-04-17T15:31:02.345Z"
+    },
+    "rule/doc-writing-style": {
+      "type": "rule",
+      "name": "doc-writing-style",
+      "hash": "25e0231a2308ad324547838164f498e7ac08c63021114c5ab9317e30b543a1d2",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.345Z",
+      "updatedAt": "2026-04-17T15:31:02.345Z"
+    },
+    "rule/doc-annotation": {
+      "type": "rule",
+      "name": "doc-annotation",
+      "hash": "c0809f39dd788e20558b80a867c13cdca805c1d1ad1350861e3301415b1a90a5",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.345Z",
+      "updatedAt": "2026-04-17T15:31:02.345Z"
+    },
+    "rule/doc-changelog": {
+      "type": "rule",
+      "name": "doc-changelog",
+      "hash": "b58df800d375b7f9d1aa2200702e589521ca2d410be597cf7f64f5ebd206b9d3",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.345Z",
+      "updatedAt": "2026-04-17T15:31:02.345Z"
+    },
+    "hook/auto-format": {
+      "type": "hook",
+      "name": "auto-format",
+      "lifecycle": "PostToolUse",
+      "matcher": "Write|Edit",
+      "hash": "f733e65ae57fd2c2e9644fb16dbf6a3f5688e7bae7e4d8a3407c03e31c11da7f",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.346Z",
+      "updatedAt": "2026-04-17T15:31:02.346Z"
+    },
+    "skill/doc-brd": {
+      "type": "skill",
+      "name": "doc-brd",
+      "hash": "61fe0a45e96ab2d9085decf79e3794a9ac637209487819d990e03bc3414602e9",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.346Z",
+      "updatedAt": "2026-04-17T15:31:02.346Z"
+    },
+    "skill/doc-mrd": {
+      "type": "skill",
+      "name": "doc-mrd",
+      "hash": "3cc1dd94fa51f42df48c7910455a3f6797306255c41b8bcefbae3e579390536d",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.346Z",
+      "updatedAt": "2026-04-17T15:31:02.346Z"
+    },
+    "skill/doc-prd": {
+      "type": "skill",
+      "name": "doc-prd",
+      "hash": "604ecd19981c92bab3c006a944c7b2910e6cacd614be418b8be0454dc8928e89",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.347Z",
+      "updatedAt": "2026-04-17T15:31:02.347Z"
+    },
+    "skill/doc-roadmap": {
+      "type": "skill",
+      "name": "doc-roadmap",
+      "hash": "f3d2693a990dfd52abc80a4a409d266dd50651fe2e62f679b7aa01267afb865c",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.347Z",
+      "updatedAt": "2026-04-17T15:31:02.347Z"
+    },
+    "skill/doc-workflow": {
+      "type": "skill",
+      "name": "doc-workflow",
+      "hash": "9b445a0a4c4759b71abfbb06ece939e74c4d3b460a41bb1c2c30c3df92cb2ade",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.348Z",
+      "updatedAt": "2026-04-17T15:31:02.348Z"
+    },
+    "skill/spec-ubiquitous-language": {
+      "type": "skill",
+      "name": "spec-ubiquitous-language",
+      "hash": "2379ea081577077294e84e1d183815ca801597a28dadf729573e393ad5694c25",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.348Z",
+      "updatedAt": "2026-04-17T15:31:02.348Z"
+    },
+    "rule/spec-event-storming": {
+      "type": "rule",
+      "name": "spec-event-storming",
+      "hash": "f2c333f661091044bdf7611e94a0bcb8c0582e1c06fb302efc8ad38995c6ac65",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.349Z",
+      "updatedAt": "2026-04-17T15:31:02.349Z"
+    },
+    "rule/arch-ddd-strategic": {
+      "type": "rule",
+      "name": "arch-ddd-strategic",
+      "hash": "8ebefa28980914ef88d94a1f69aac1ee08679f2306600be5f41fe6dff85b105a",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.349Z",
+      "updatedAt": "2026-04-17T15:31:02.349Z"
+    },
+    "mcp/pencil-mcp": {
+      "type": "mcp",
+      "name": "pencil-mcp",
+      "serverKey": "pencil-mcp",
+      "hash": "abf4bf8f7ccf0cbf9070c80d5b79747fe9490d473c31edc3f3d606ce0cc21eec",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.349Z",
+      "updatedAt": "2026-04-17T15:31:02.349Z"
+    },
+    "rule/api-design": {
+      "type": "rule",
+      "name": "api-design",
+      "hash": "dca894b411c4a6904885f26867dfb92b7499efedb944579d0853ed2f347e74f5",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.349Z",
+      "updatedAt": "2026-04-17T15:31:02.349Z"
+    },
+    "rule/data-modeling": {
+      "type": "rule",
+      "name": "data-modeling",
+      "hash": "1519e709eee71c6a0b153b4b78beb64b465d47ee22c1e2d5a6b92a5fa8acd4a1",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.350Z",
+      "updatedAt": "2026-04-17T15:31:02.350Z"
+    },
+    "rule/arch-ddd-tactical": {
+      "type": "rule",
+      "name": "arch-ddd-tactical",
+      "hash": "52611310dd45624ce1521b5acb8e2f0996ff8b59b557c62cbcd93d2cb6e94e1f",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.350Z",
+      "updatedAt": "2026-04-17T15:31:02.350Z"
+    },
+    "rule/spec-adr": {
+      "type": "rule",
+      "name": "spec-adr",
+      "hash": "547fa8c9d7fe9d49e69ab7ca39ee66a659adf967bc0f97d6671a556c7b169488",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.350Z",
+      "updatedAt": "2026-04-17T15:31:02.350Z"
+    },
+    "rule/spec-api": {
+      "type": "rule",
+      "name": "spec-api",
+      "hash": "f26be58d106eb20c63b91341286297d2521861a93b7939f128c16e9fe02f9d65",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.350Z",
+      "updatedAt": "2026-04-17T15:31:02.350Z"
+    },
+    "skill/doc-km": {
+      "type": "skill",
+      "name": "doc-km",
+      "hash": "9debd46dc09642b33a37bf1ba824dcbe8f0d6e4d7df504aba362483560c4fd93",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.351Z",
+      "updatedAt": "2026-04-17T15:31:02.351Z"
+    },
+    "skill/obsidian-bases": {
+      "type": "skill",
+      "name": "obsidian-bases",
+      "hash": "18480900c19075da5325f6913f9cfd58c8577339ae9ced83519e583b56d30123",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.351Z",
+      "updatedAt": "2026-04-17T15:31:02.351Z"
+    },
+    "skill/obsidian-cli": {
+      "type": "skill",
+      "name": "obsidian-cli",
+      "hash": "ca385e570abee22c89090cdd169478908458cca8abb5527031ffe16eb840491d",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.352Z",
+      "updatedAt": "2026-04-17T15:31:02.352Z"
+    },
+    "skill/obsidian-defuddle": {
+      "type": "skill",
+      "name": "obsidian-defuddle",
+      "hash": "054b4ed67a5e618d292cc6e21bbb9fc299d1a5aabf3fe82e3883e015d9c63775",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.352Z",
+      "updatedAt": "2026-04-17T15:31:02.352Z"
+    },
+    "skill/obsidian-json-canvas": {
+      "type": "skill",
+      "name": "obsidian-json-canvas",
+      "hash": "1102a2fe143aaa52bfe0d7946881b8e1f03dbbb000d70c45f5692a37299a74dc",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.352Z",
+      "updatedAt": "2026-04-17T15:31:02.352Z"
+    },
+    "skill/obsidian-markdown": {
+      "type": "skill",
+      "name": "obsidian-markdown",
+      "hash": "fbed41876d3703f10f864e335b08ab586c010ae5c4a63c827ad90936c92f9557",
+      "scope": "project",
+      "installedAt": "2026-04-17T15:31:02.352Z",
+      "updatedAt": "2026-04-17T15:31:02.352Z"
+    }
+  },
   "symlink": "shared/sunsino-prompts"
 }
