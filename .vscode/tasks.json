@@ -1,0 +1,12 @@
+{
+  "version": "2.0.0",
+  "inputs": [],
+  "tasks": [
+    {
+      "label": "All: Pull Submodules",
+      "type": "shell",
+      "command": "for dir in sunsino-workspace sunsino-prototype; do (echo \"=== $dir ===\" && cd ${workspaceFolder}/../$dir && git submodule update --remote --merge) & done; wait",
+      "problemMatcher": []
+    }
+  ]
+}
