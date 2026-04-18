@@ -4,7 +4,11 @@
     "base",
     "product",
     "system-analysis",
-    "km"
+    "km",
+    "code-basic",
+    "uiux",
+    "frontend",
+    "monorepo"
   ],
   "resources": {
     "skill/doc-readme": {
@@ -216,6 +220,312 @@
       "scope": "project",
       "installedAt": "2026-04-17T15:53:14.438Z",
       "updatedAt": "2026-04-17T15:53:14.438Z"
+    },
+    "rule/code-style": {
+      "type": "rule",
+      "name": "code-style",
+      "hash": "3da4dc4341501a7281e2378e37f699aa78b547ce5eff583bc381d620e0dfdf7f",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.162Z",
+      "updatedAt": "2026-04-18T10:48:32.162Z"
+    },
+    "rule/code-naming": {
+      "type": "rule",
+      "name": "code-naming",
+      "hash": "b7f02306e141ef731686044978d5b12b3c86927112cba499bacc2f604c79ad98",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.163Z",
+      "updatedAt": "2026-04-18T10:48:32.163Z"
+    },
+    "rule/code-error-handling": {
+      "type": "rule",
+      "name": "code-error-handling",
+      "hash": "2c115d81044414f3a189b81eff11088f49b3ace88514c3d6c41edb10b1d86590",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.163Z",
+      "updatedAt": "2026-04-18T10:48:32.163Z"
+    },
+    "rule/code-testing": {
+      "type": "rule",
+      "name": "code-testing",
+      "hash": "10742d5f82b576eacaf7014b1a7e1f8b941efaf8d2d10e82e9b83f0850e8d484",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.163Z",
+      "updatedAt": "2026-04-18T10:48:32.163Z"
+    },
+    "rule/code-refactoring": {
+      "type": "rule",
+      "name": "code-refactoring",
+      "hash": "701d34266e4e1137cf4bbc30c1fbfec07223d2f4d7e5fe3cee3cd3822dff761a",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.164Z",
+      "updatedAt": "2026-04-18T10:48:32.164Z"
+    },
+    "rule/code-typescript": {
+      "type": "rule",
+      "name": "code-typescript",
+      "hash": "3f580006eb79779636c29fb64a63d25f79d4e7b638bbaba1361e99eb9018504a",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.164Z",
+      "updatedAt": "2026-04-18T10:48:32.164Z"
+    },
+    "rule/code-review": {
+      "type": "rule",
+      "name": "code-review",
+      "hash": "4a922c29a936c4979a24d5a5cb9d5c7d7eed911afa180fad558cb9438e8767d1",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.165Z",
+      "updatedAt": "2026-04-18T10:48:32.165Z"
+    },
+    "rule/collab-definition-of-done": {
+      "type": "rule",
+      "name": "collab-definition-of-done",
+      "hash": "e376400d51d9d1891304ca9f213cace2a509d98bbdc6d96ac50d4efba775bc32",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.165Z",
+      "updatedAt": "2026-04-18T10:48:32.165Z"
+    },
+    "rule/arch-dependency": {
+      "type": "rule",
+      "name": "arch-dependency",
+      "hash": "88a1e6c3c8bf13b0a6456a6d72ec02d16419a65a420aead93cdf524c721bd3e5",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.165Z",
+      "updatedAt": "2026-04-18T10:48:32.165Z"
+    },
+    "rule/arch-layering": {
+      "type": "rule",
+      "name": "arch-layering",
+      "hash": "0d1aba80022e0ed626ce79dd184cb7fb66db711a8066e4abe134d5d305cf359d",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.165Z",
+      "updatedAt": "2026-04-18T10:48:32.165Z"
+    },
+    "rule/security-env-config": {
+      "type": "rule",
+      "name": "security-env-config",
+      "hash": "fc035f6124cac1f989936e0fb4e4fe02f23c5b9843136a088b3eccca7e0f361b",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.166Z",
+      "updatedAt": "2026-04-18T10:48:32.166Z"
+    },
+    "mcp/github-mcp-server": {
+      "type": "mcp",
+      "name": "github-mcp-server",
+      "serverKey": "io.github.github/github-mcp-server",
+      "hash": "305b22d69ea90e95a83ba0c659e56c5ad2944be3ea7c0d9f5e41fb0bd6bf0b4e",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.166Z",
+      "updatedAt": "2026-04-18T10:48:32.166Z"
+    },
+    "skill/uiux-adapt": {
+      "type": "skill",
+      "name": "uiux-adapt",
+      "hash": "4341d9a2e4d52176df43894f5896d4608eceec3fccd0a390a0e985bf148068ae",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.167Z",
+      "updatedAt": "2026-04-18T10:48:32.167Z"
+    },
+    "skill/uiux-animate": {
+      "type": "skill",
+      "name": "uiux-animate",
+      "hash": "b303fef76f0467d843417ab417e3fa9a60793e423c49746a4632917deea2b655",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.167Z",
+      "updatedAt": "2026-04-18T10:48:32.167Z"
+    },
+    "skill/uiux-audit": {
+      "type": "skill",
+      "name": "uiux-audit",
+      "hash": "df4e700e40c20523d4346505f7c82949deaeca648867cca91de59b4e8888ea8f",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.168Z",
+      "updatedAt": "2026-04-18T10:48:32.168Z"
+    },
+    "skill/uiux-bolder": {
+      "type": "skill",
+      "name": "uiux-bolder",
+      "hash": "c0d995ae3c57c3c44b4f0974c0e6ffec1da30ed6cf2273e2a2f4cdbba76b29cf",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.168Z",
+      "updatedAt": "2026-04-18T10:48:32.168Z"
+    },
+    "skill/uiux-clarify": {
+      "type": "skill",
+      "name": "uiux-clarify",
+      "hash": "67dbeeba75d95aab9baa1b1a45be2984262ee63b1277411fd510533c95cac085",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.169Z",
+      "updatedAt": "2026-04-18T10:48:32.169Z"
+    },
+    "skill/uiux-colorize": {
+      "type": "skill",
+      "name": "uiux-colorize",
+      "hash": "5deff14fd5cc8cc9c3684c572f9cb6282dbdf85b4fb934ffd56a23c538ca5827",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.169Z",
+      "updatedAt": "2026-04-18T10:48:32.169Z"
+    },
+    "skill/uiux-critique": {
+      "type": "skill",
+      "name": "uiux-critique",
+      "hash": "d3b3a3787691ebe2a3fca470af2c763d0a6ee356be8264509e12bdabd5425247",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.169Z",
+      "updatedAt": "2026-04-18T10:48:32.169Z"
+    },
+    "skill/uiux-delight": {
+      "type": "skill",
+      "name": "uiux-delight",
+      "hash": "d5f4887cb1a546a147f7d5cb407cd3df04898b03daf2a356e52482bd23130f7c",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.170Z",
+      "updatedAt": "2026-04-18T10:48:32.170Z"
+    },
+    "skill/uiux-delivery": {
+      "type": "skill",
+      "name": "uiux-delivery",
+      "hash": "6976057dc52ae01fee65eaf625be012e9d433d19fce55a0e1f1bde298fcefe4e",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.172Z",
+      "updatedAt": "2026-04-18T10:48:32.172Z"
+    },
+    "skill/uiux-distill": {
+      "type": "skill",
+      "name": "uiux-distill",
+      "hash": "62a9ccebefa194922352d6aff4e64f14606caf2fd3f1a069c5a7f8eeac2cd19b",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.173Z",
+      "updatedAt": "2026-04-18T10:48:32.173Z"
+    },
+    "skill/uiux-extract": {
+      "type": "skill",
+      "name": "uiux-extract",
+      "hash": "29a95b41df0787b0f3d7a3b3cfbcb907fdbaecd12774881ce78fb9cbc9af43bd",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.174Z",
+      "updatedAt": "2026-04-18T10:48:32.174Z"
+    },
+    "skill/uiux-frontend-design": {
+      "type": "skill",
+      "name": "uiux-frontend-design",
+      "hash": "62b9e6353b09f8cde7133d3c9c55ceece1c33c8c7ff721bea732e8ffe4244027",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.176Z",
+      "updatedAt": "2026-04-18T10:48:32.176Z"
+    },
+    "skill/uiux-harden": {
+      "type": "skill",
+      "name": "uiux-harden",
+      "hash": "18f1bb5e876edc521614937f15fc7de3437c8762553bd231cf7c9df577a2a952",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.176Z",
+      "updatedAt": "2026-04-18T10:48:32.176Z"
+    },
+    "skill/uiux-normalize": {
+      "type": "skill",
+      "name": "uiux-normalize",
+      "hash": "d9141ef7726adc74858f610f1b211103d3143fb0d66458711fb00a0869080abd",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.177Z",
+      "updatedAt": "2026-04-18T10:48:32.177Z"
+    },
+    "skill/uiux-onboard": {
+      "type": "skill",
+      "name": "uiux-onboard",
+      "hash": "6f485f68dcfb3b2ad0672573c35d61f5670da276edb732db5c37924b4bfb4dfd",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.177Z",
+      "updatedAt": "2026-04-18T10:48:32.177Z"
+    },
+    "skill/uiux-optimize": {
+      "type": "skill",
+      "name": "uiux-optimize",
+      "hash": "180eebed322fd3ea3d2ab743b1b772f657fd1eeee77a2f537063d48f9c9633ef",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.177Z",
+      "updatedAt": "2026-04-18T10:48:32.177Z"
+    },
+    "skill/uiux-polish": {
+      "type": "skill",
+      "name": "uiux-polish",
+      "hash": "90ed50227a28d1686edd9fa77153be93b8a8d54229a339e9c0b6a794690112c8",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.178Z",
+      "updatedAt": "2026-04-18T10:48:32.178Z"
+    },
+    "skill/uiux-quieter": {
+      "type": "skill",
+      "name": "uiux-quieter",
+      "hash": "21b41c61cbc3ad01cab5f2d35af04267965b9eb29cf3d31c6b0f3a797cdf85d9",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.179Z",
+      "updatedAt": "2026-04-18T10:48:32.179Z"
+    },
+    "skill/uiux-teach-impeccable": {
+      "type": "skill",
+      "name": "uiux-teach-impeccable",
+      "hash": "17832298cd9925ad479219e89d71951bb8f2c486e7375c35d2f94f3d144ab33c",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.179Z",
+      "updatedAt": "2026-04-18T10:48:32.179Z"
+    },
+    "skill/animation-algorithmic-art": {
+      "type": "skill",
+      "name": "animation-algorithmic-art",
+      "hash": "6e8884bbf385c64eedcc358c156df3729668ceff5da0ecd90be7188005d97d61",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.181Z",
+      "updatedAt": "2026-04-18T10:48:32.181Z"
+    },
+    "rule/frontend-component": {
+      "type": "rule",
+      "name": "frontend-component",
+      "hash": "b0e08f67598dba6c5b3bcdf8d7cd307c938ba3f0bb30a73964aefadb15505df4",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.181Z",
+      "updatedAt": "2026-04-18T10:48:32.181Z"
+    },
+    "rule/frontend-state": {
+      "type": "rule",
+      "name": "frontend-state",
+      "hash": "9c3a9c59337c8663a37869b579f883d54bf108036258d3cbd8d60c82fbb2a7a4",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.181Z",
+      "updatedAt": "2026-04-18T10:48:32.181Z"
+    },
+    "rule/a11y-standard": {
+      "type": "rule",
+      "name": "a11y-standard",
+      "hash": "e32be5b9f3e6819b2ab57e2dfec721f94db8dc91af16d4f2e56448a06c843865",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.182Z",
+      "updatedAt": "2026-04-18T10:48:32.182Z"
+    },
+    "rule/i18n-standard": {
+      "type": "rule",
+      "name": "i18n-standard",
+      "hash": "4fd0daf5a3c804f353b07b21863ed65f58a5ee464331a8820ef683290ff52b90",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.182Z",
+      "updatedAt": "2026-04-18T10:48:32.182Z"
+    },
+    "rule/perf-optimization": {
+      "type": "rule",
+      "name": "perf-optimization",
+      "hash": "84c2b7c47430d2bcf3137d08a33d5472e2090b7013c78eb26539ec13741deb5f",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.182Z",
+      "updatedAt": "2026-04-18T10:48:32.182Z"
+    },
+    "mcp/chrome-devtools-mcp": {
+      "type": "mcp",
+      "name": "chrome-devtools-mcp",
+      "serverKey": "io.github.ChromeDevTools/chrome-devtools-mcp",
+      "hash": "ed530771a06d038536127102eaea6655406042a7add7074a7d83f5acf1a2de89",
+      "scope": "project",
+      "installedAt": "2026-04-18T10:48:32.182Z",
+      "updatedAt": "2026-04-18T10:48:32.182Z"
     }
   }
 }

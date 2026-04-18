@@ -1,3 +1,6 @@
 [submodule "shared/sunsino-ssot"]
 	path = shared/sunsino-ssot
 	url = https://github.com/sunsino-venture-group/sunsino-ssot.git
+[submodule "shared/sunsino-prototype"]
+	path = shared/sunsino-prototype
+	url = https://carlos-sunsino@github.com/sunsino-venture-group/sunsino-prototype.git
