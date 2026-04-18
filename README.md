@@ -11,6 +11,7 @@ Sunsino 創投生態平台的產品開發工作空間，彙整雙平台（DealFo
 | [02-notes/](./02-notes/) | 技術研究與設計筆記 |
 | [shared/sunsino-ssot](./shared/sunsino-ssot/) | 正式文件庫（submodule）：願景、計畫、功能規格、架構決策 |
 | [shared/sunsino-prompts](./shared/sunsino-prompts/) | Claude 提示詞與規範集（submodule） |
+| [shared/sunsino-prototype](./shared/sunsino-prototype/) | 前端原型 monorepo（submodule）：DealFound、STARTUP101、Sunsino 三支 Vue 應用及共用 UI 元件庫 |
 
 ## 雙平台架構
 
@@ -29,7 +30,7 @@ graph LR
 
 ## Submodules
 
-本工作空間包含兩個 git submodule：
+本工作空間包含三個 git submodule：
 
 ```bash
 # 初始化並拉取 submodule
