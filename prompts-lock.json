@@ -129,15 +129,6 @@
       "installedAt": "2026-04-17T15:53:14.431Z",
       "updatedAt": "2026-04-17T15:53:14.431Z"
     },
-    "mcp/pencil-mcp": {
-      "type": "mcp",
-      "name": "pencil-mcp",
-      "serverKey": "pencil-mcp",
-      "hash": "abf4bf8f7ccf0cbf9070c80d5b79747fe9490d473c31edc3f3d606ce0cc21eec",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.431Z",
-      "updatedAt": "2026-04-17T15:53:14.431Z"
-    },
     "rule/api-design": {
       "type": "rule",
       "name": "api-design",
