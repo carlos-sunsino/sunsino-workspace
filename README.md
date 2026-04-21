@@ -6,9 +6,8 @@ Sunsino 創投生態平台的產品開發工作空間，彙整雙平台（DealFo
 
 | 目錄 | 說明 |
 | --- | --- |
-| [00-inbox/](./00-inbox/) | 待整理的輸入文件，包含過往的 BRD、MRD 與市場研究 |
+| [inbox/](./inbox/) | 待整理的輸入文件，包含過往的 BRD、MRD 與市場研究 |
 | [01-local-setup/](./01-local-setup/) | 本機開發環境設定指引 |
-| [02-notes/](./02-notes/) | 技術研究與設計筆記 |
 | [shared/sunsino-ssot](./shared/sunsino-ssot/) | 正式文件庫（submodule）：願景、計畫、功能規格、架構決策 |
 | [shared/sunsino-prompts](./shared/sunsino-prompts/) | Claude 提示詞與規範集（submodule） |
 | [shared/sunsino-prototype](./shared/sunsino-prototype/) | 前端原型 monorepo（submodule）：DealFound、STARTUP101、Sunsino 三支 Vue 應用及共用 UI 元件庫 |
