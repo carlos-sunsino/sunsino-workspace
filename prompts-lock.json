@@ -1,63 +1,857 @@
 {
   "version": 2,
   "presets": [
-    "base",
-    "product",
-    "system-analysis",
-    "km",
-    "code-basic",
-    "uiux",
-    "frontend",
-    "monorepo"
+    "project-ssot",
+    "project-prototype"
   ],
   "resources": {
     "skill/doc-readme": {
       "type": "skill",
       "name": "doc-readme",
-      "hash": "1a64b210f1a452d8ec5eaea1b4d787073cd3cd986cc7d71d4420257b4c3cd005",
+      "hash": "c600212bcfe42ebca2a66320116df4aab785decb32c43665d5e8c446c687e799",
       "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.414Z",
-      "updatedAt": "2026-04-17T15:53:14.414Z"
+      "installedAt": "2026-04-28T17:12:34.212Z",
+      "updatedAt": "2026-04-28T17:12:34.212Z"
     },
     "skill/doc-claude": {
       "type": "skill",
       "name": "doc-claude",
-      "hash": "725340cce0c516ccc600bf7af8b5683fb8e5c280123f869a3b916fede3afb66c",
+      "hash": "ed0321fe40469b6e0ac2310da46261164df94a2e4bc2317f935ad7a4e065f495",
       "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.416Z",
-      "updatedAt": "2026-04-17T15:53:14.416Z"
+      "installedAt": "2026-04-28T17:12:34.213Z",
+      "updatedAt": "2026-04-28T17:12:34.213Z"
     },
     "skill/git-commit": {
       "type": "skill",
       "name": "git-commit",
-      "hash": "b0f4b86b0c12d277fb0c53f76738172165eca75ce790e71c73255a0a7be84e73",
+      "hash": "a5f3d1c3179d32a17e25cd149fd5fef8a35278c693da09ac310d95cfcc72e705",
       "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.417Z",
-      "updatedAt": "2026-04-17T15:53:14.417Z"
+      "installedAt": "2026-04-28T17:12:34.214Z",
+      "updatedAt": "2026-04-28T17:12:34.214Z"
+    },
+    "skill/ssot-document-create": {
+      "type": "skill",
+      "name": "ssot-document-create",
+      "hash": "0a4c2a7472f53340b66e7549ecae034b8db82a0d407a6f6274614b4d4738cfde",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.215Z",
+      "updatedAt": "2026-04-28T17:12:34.215Z"
+    },
+    "skill/ssot-requirements-pyramid": {
+      "type": "skill",
+      "name": "ssot-requirements-pyramid",
+      "hash": "dd28b1bc6d7b57e9d663e7c19b7d5ffd8fc582f0ba4815f6fc4f3d83fcfbbdf5",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.216Z",
+      "updatedAt": "2026-04-28T17:12:34.216Z"
+    },
+    "skill/ssot-ddd-modeling": {
+      "type": "skill",
+      "name": "ssot-ddd-modeling",
+      "hash": "9be942eef9367f109ef114523c5a82273675ff2a1bb2b0a1110ccee06eabbfd3",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.218Z",
+      "updatedAt": "2026-04-29T02:54:21.155Z"
+    },
+    "skill/ssot-ubiquitous-language": {
+      "type": "skill",
+      "name": "ssot-ubiquitous-language",
+      "hash": "4032f32da259b864e9e63725399a6474bd783e1d8ed9c06bb84db8f06bb4bede",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.220Z",
+      "updatedAt": "2026-04-29T02:54:21.158Z"
+    },
+    "skill/ssot-flow-decomposition": {
+      "type": "skill",
+      "name": "ssot-flow-decomposition",
+      "hash": "967ca9ce30c57ac3112e7b7e3ed6104c0f5b34ba8d8c4e88510804cb3718f9b2",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.222Z",
+      "updatedAt": "2026-04-29T02:54:21.160Z"
+    },
+    "skill/ssot-event-modeling": {
+      "type": "skill",
+      "name": "ssot-event-modeling",
+      "hash": "33e493a35c242bd8393c7d9a9e75e1c7eea20a202fccc9d184218d4340241a66",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.223Z",
+      "updatedAt": "2026-04-29T02:54:21.162Z"
+    },
+    "skill/ssot-fsm-modeling": {
+      "type": "skill",
+      "name": "ssot-fsm-modeling",
+      "hash": "d2fb077c0a406f5c6b8a3c72ffeb78a9d49607b3e5d3df73ba6ec6c7b41c6e8d",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.225Z",
+      "updatedAt": "2026-04-29T02:54:21.165Z"
+    },
+    "skill/ssot-bdd-feature": {
+      "type": "skill",
+      "name": "ssot-bdd-feature",
+      "hash": "f852f612b721074107df506d3c170c81c41b270826121decd9cc539bb29bc40f",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.227Z",
+      "updatedAt": "2026-04-29T02:54:21.167Z"
+    },
+    "skill/ssot-c4-architecting": {
+      "type": "skill",
+      "name": "ssot-c4-architecting",
+      "hash": "739ab072bdc564e98f2ccef9f6914ce4d085457cb94a6821af31cf6cb4bbacfa",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.229Z",
+      "updatedAt": "2026-04-29T02:54:21.170Z"
+    },
+    "skill/ssot-api-contract-design": {
+      "type": "skill",
+      "name": "ssot-api-contract-design",
+      "hash": "a7a3e590960160eb7f829a42c2aecb50423a2f23dd74755d9aab9c5f912ced79",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.231Z",
+      "updatedAt": "2026-04-29T02:54:21.172Z"
+    },
+    "skill/ssot-data-modeling": {
+      "type": "skill",
+      "name": "ssot-data-modeling",
+      "hash": "21ae899294d4c4b3e9b7df34d09e6515f1564d89e10bc28b38387f0682879e67",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.232Z",
+      "updatedAt": "2026-04-29T02:54:21.174Z"
+    },
+    "skill/ssot-service-spec": {
+      "type": "skill",
+      "name": "ssot-service-spec",
+      "hash": "2d2d842d7812febb1a3fdc52a1e966fde52c50e3b6e65de698795b34faa98870",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.234Z",
+      "updatedAt": "2026-04-29T02:54:21.177Z"
+    },
+    "skill/ssot-app-spec": {
+      "type": "skill",
+      "name": "ssot-app-spec",
+      "hash": "941c87c5ce4366cf59e2bf570a9c26ebb45e5c7547db404878a2b750d29d4095",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.236Z",
+      "updatedAt": "2026-04-28T17:12:34.236Z"
+    },
+    "skill/ssot-infra-spec": {
+      "type": "skill",
+      "name": "ssot-infra-spec",
+      "hash": "3d303dafb9d59233509a963b45673e68873d435fb04e4ac4369fc312b6b72227",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.237Z",
+      "updatedAt": "2026-04-29T02:54:21.180Z"
+    },
+    "skill/ssot-ops-spec": {
+      "type": "skill",
+      "name": "ssot-ops-spec",
+      "hash": "de6984176b7a6c3c7d6c0939e51592007fc2fd22fa5f048ba2a513643abbc9a5",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.241Z",
+      "updatedAt": "2026-04-28T17:12:34.241Z"
+    },
+    "skill/ssot-bff-spec": {
+      "type": "skill",
+      "name": "ssot-bff-spec",
+      "hash": "7f0c288878b1cfa9a7a99636dd0d32eee4cfff1e2fa2efe266674d151c93ba5b",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.242Z",
+      "updatedAt": "2026-04-29T02:54:21.182Z"
+    },
+    "skill/ssot-decision-recording": {
+      "type": "skill",
+      "name": "ssot-decision-recording",
+      "hash": "effc9dcabe5876a3a81de679980fef9c9413c6ad4efdcc334b64f709d86fd847",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.244Z",
+      "updatedAt": "2026-04-28T17:12:34.244Z"
+    },
+    "skill/ssot-impact-analysis": {
+      "type": "skill",
+      "name": "ssot-impact-analysis",
+      "hash": "d788841b9a50b77f38fbbd13158d845ad046d6d90ec1dd8bca78424b7a0c88c7",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.245Z",
+      "updatedAt": "2026-04-29T02:54:21.185Z"
+    },
+    "skill/ssot-release-planning": {
+      "type": "skill",
+      "name": "ssot-release-planning",
+      "hash": "e3dc4d17e211c5fd1801c16f9ba2cfe60b9c6cb791efbc0a95f70185ae258613",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.246Z",
+      "updatedAt": "2026-04-28T17:12:34.246Z"
+    },
+    "skill/ssot-runbook-authoring": {
+      "type": "skill",
+      "name": "ssot-runbook-authoring",
+      "hash": "109d59f83d075a88a91d0528844d2a8576cdb0aacf0979740248fe4e5252ac5f",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.247Z",
+      "updatedAt": "2026-04-28T17:12:34.247Z"
+    },
+    "skill/ssot-security-modeling": {
+      "type": "skill",
+      "name": "ssot-security-modeling",
+      "hash": "9750ec52eea8d25466d12a5b246720d91de747666c6833b9c2d077d1f0bf6a91",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.248Z",
+      "updatedAt": "2026-04-29T02:54:21.187Z"
+    },
+    "skill/ssot-nfr-design": {
+      "type": "skill",
+      "name": "ssot-nfr-design",
+      "hash": "a5f6b8662bc253beb2c2c65b606e06537bd535fa0f3516c99f7a8879aa552586",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.249Z",
+      "updatedAt": "2026-04-29T02:54:21.190Z"
+    },
+    "skill/ssot-test-strategy": {
+      "type": "skill",
+      "name": "ssot-test-strategy",
+      "hash": "8ec9b0aae34a2d4040407920048cb499ea122cd517d82e61438a4cacd7f7301d",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.251Z",
+      "updatedAt": "2026-04-29T02:54:21.192Z"
+    },
+    "skill/ssot-analytics-design": {
+      "type": "skill",
+      "name": "ssot-analytics-design",
+      "hash": "0885abbec4cb9d02a5882ab07160e91cdeb8e13a0d11e9982453c0b481c80b54",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.252Z",
+      "updatedAt": "2026-04-28T17:12:34.252Z"
+    },
+    "skill/ssot-directory-layout": {
+      "type": "skill",
+      "name": "ssot-directory-layout",
+      "hash": "6236139396f3d1d9a3a698f130734bbaa9733887f5162fe286da0243f35682f7",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.253Z",
+      "updatedAt": "2026-04-28T17:12:34.253Z"
+    },
+    "skill/ssot-feature-flag-design": {
+      "type": "skill",
+      "name": "ssot-feature-flag-design",
+      "hash": "e322f641fb9043a8e8e0a2b9ac4419688421503c5274fd2840845ed2268c2ee6",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.254Z",
+      "updatedAt": "2026-04-28T17:12:34.254Z"
+    },
+    "skill/ssot-okr-modeling": {
+      "type": "skill",
+      "name": "ssot-okr-modeling",
+      "hash": "ace76cca82837957f9ec476971820dc7e83edb9242a56e81d39271d2961e33ad",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.255Z",
+      "updatedAt": "2026-04-29T02:54:21.194Z"
+    },
+    "skill/doc-km": {
+      "type": "skill",
+      "name": "doc-km",
+      "hash": "a6caeb35e1bb42d5db069a632d73e85f4bfaef9b0df8e7d14f97b91d29407d56",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.256Z",
+      "updatedAt": "2026-04-28T17:12:34.256Z"
+    },
+    "skill/obsidian-bases": {
+      "type": "skill",
+      "name": "obsidian-bases",
+      "hash": "18480900c19075da5325f6913f9cfd58c8577339ae9ced83519e583b56d30123",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.256Z",
+      "updatedAt": "2026-04-28T17:12:34.256Z"
+    },
+    "skill/obsidian-cli": {
+      "type": "skill",
+      "name": "obsidian-cli",
+      "hash": "b81689d96989e47cc1f8f5157776fe6f712be640c1a360647215d000c25a5e55",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.257Z",
+      "updatedAt": "2026-04-28T17:12:34.257Z"
+    },
+    "skill/obsidian-defuddle": {
+      "type": "skill",
+      "name": "obsidian-defuddle",
+      "hash": "10431627299eaf778ded90b3d7c08fef9e003e2a5d0c41cd22744ce32823a69a",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.257Z",
+      "updatedAt": "2026-04-28T17:12:34.257Z"
+    },
+    "skill/obsidian-json-canvas": {
+      "type": "skill",
+      "name": "obsidian-json-canvas",
+      "hash": "1102a2fe143aaa52bfe0d7946881b8e1f03dbbb000d70c45f5692a37299a74dc",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.258Z",
+      "updatedAt": "2026-04-28T17:12:34.258Z"
+    },
+    "skill/obsidian-markdown": {
+      "type": "skill",
+      "name": "obsidian-markdown",
+      "hash": "fbed41876d3703f10f864e335b08ab586c010ae5c4a63c827ad90936c92f9557",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.259Z",
+      "updatedAt": "2026-04-28T17:12:34.259Z"
+    },
+    "agent/ssot-consistency-auditor": {
+      "type": "agent",
+      "name": "ssot-consistency-auditor",
+      "hash": "9241e3f4419afa17959417f5b747a18b90b1c0dd5a710a78332938c2b4be9163",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.259Z",
+      "updatedAt": "2026-04-28T17:12:34.259Z"
     },
     "rule/doc-writing-style": {
       "type": "rule",
       "name": "doc-writing-style",
-      "hash": "25e0231a2308ad324547838164f498e7ac08c63021114c5ab9317e30b543a1d2",
+      "hash": "be86e5506ed6cf06b49b818ca74280d40c142a715d2f2e7c28dc6349837ef0b1",
       "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.418Z",
-      "updatedAt": "2026-04-17T15:53:14.418Z"
+      "installedAt": "2026-04-28T17:12:34.260Z",
+      "updatedAt": "2026-04-28T17:12:34.260Z"
     },
     "rule/doc-annotation": {
       "type": "rule",
       "name": "doc-annotation",
-      "hash": "c0809f39dd788e20558b80a867c13cdca805c1d1ad1350861e3301415b1a90a5",
+      "hash": "74ae9800ab8efe9ed8bd93a0119b517d840392d302c5b4aa4d60b7a8c9b62feb",
       "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.418Z",
-      "updatedAt": "2026-04-17T15:53:14.418Z"
+      "installedAt": "2026-04-28T17:12:34.260Z",
+      "updatedAt": "2026-04-28T17:12:34.260Z"
     },
     "rule/doc-changelog": {
       "type": "rule",
       "name": "doc-changelog",
-      "hash": "b58df800d375b7f9d1aa2200702e589521ca2d410be597cf7f64f5ebd206b9d3",
+      "hash": "27a55859f51af860ff2696a48e2fffd65ec9aacadb94ca0eebc513346add516d",
       "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.418Z",
-      "updatedAt": "2026-04-17T15:53:14.418Z"
+      "installedAt": "2026-04-28T17:12:34.260Z",
+      "updatedAt": "2026-04-28T17:12:34.260Z"
+    },
+    "rule/doc-mdx-frontmatter": {
+      "type": "rule",
+      "name": "doc-mdx-frontmatter",
+      "hash": "a3fcb7e55c4260b710ef10fb3cc3e5700b0698118cd5adada43748d3b91f9bb3",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.260Z",
+      "updatedAt": "2026-04-28T17:12:34.260Z"
+    },
+    "rule/doc-mdx-components": {
+      "type": "rule",
+      "name": "doc-mdx-components",
+      "hash": "7f97987284928d459ebbe369a6b828d62afce162c81e5aa5c11ae964a44ad6b1",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.261Z",
+      "updatedAt": "2026-04-28T17:12:34.261Z"
+    },
+    "rule/doc-cross-layer-linking": {
+      "type": "rule",
+      "name": "doc-cross-layer-linking",
+      "hash": "73bd1c6fa5fa50ae2bf461d97234d13bf49fb84c12d314a91eaa91aff955f610",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.261Z",
+      "updatedAt": "2026-04-28T17:12:34.261Z"
+    },
+    "rule/doc-directory-structure": {
+      "type": "rule",
+      "name": "doc-directory-structure",
+      "hash": "643a6d2981e6d84b71a919c2f11bddf90ef18b26af1661a4cebebfd883760884",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.261Z",
+      "updatedAt": "2026-04-28T17:12:34.261Z"
+    },
+    "rule/doc-single-source": {
+      "type": "rule",
+      "name": "doc-single-source",
+      "hash": "f7dfb92233d8a424727c5f641ad9c3d1e00b0a7ab1d46246b45df149920c2fc3",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.262Z",
+      "updatedAt": "2026-04-28T17:12:34.262Z"
+    },
+    "rule/doc-mermaid-style": {
+      "type": "rule",
+      "name": "doc-mermaid-style",
+      "hash": "db816413ad92eaa3a1754e0532533eedaf0dc206597713f1842c16935464fed4",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.262Z",
+      "updatedAt": "2026-04-28T17:12:34.262Z"
+    },
+    "rule/ssot-naming": {
+      "type": "rule",
+      "name": "ssot-naming",
+      "hash": "14278a85c6e3f27d179fe0ab678e4ba5424ea79dd38b8b54cfda358a9a17c050",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.262Z",
+      "updatedAt": "2026-04-28T17:12:34.262Z"
+    },
+    "rule/ssot-placement": {
+      "type": "rule",
+      "name": "ssot-placement",
+      "hash": "6500f2aa843d8b6ca19ac68c5cb882a147c55238b622fd3431e71a9067bd77e7",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.262Z",
+      "updatedAt": "2026-04-28T17:12:34.262Z"
+    },
+    "rule/arch-ddd-strategic": {
+      "type": "rule",
+      "name": "arch-ddd-strategic",
+      "hash": "efdcc21e07b3b6bdd4f259e563cafb1630cf06612b9996cc20516d66a0b8ff57",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.263Z",
+      "updatedAt": "2026-04-28T17:12:34.263Z"
+    },
+    "rule/arch-ddd-tactical": {
+      "type": "rule",
+      "name": "arch-ddd-tactical",
+      "hash": "72ee880c185dc3ce44d912a11950a8c746f623a3dca793bc50a2a7eddb611398",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.263Z",
+      "updatedAt": "2026-04-28T17:12:34.263Z"
+    },
+    "rule/spec-brd": {
+      "type": "rule",
+      "name": "spec-brd",
+      "hash": "5bf26a37b38abee316da4cf239b8fc67156bd738c07beeafa69e9f7f432ddee5",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.263Z",
+      "updatedAt": "2026-04-28T17:12:34.263Z"
+    },
+    "rule/spec-mrd": {
+      "type": "rule",
+      "name": "spec-mrd",
+      "hash": "ace1051aa9765b58fbed90c5a7663b6a59d3dfde5c3de0c0cb690bc4f7a169f2",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.263Z",
+      "updatedAt": "2026-04-28T17:12:34.263Z"
+    },
+    "rule/spec-prd": {
+      "type": "rule",
+      "name": "spec-prd",
+      "hash": "9ed3d4e888f300a0e3521c20b8484c5960b7dabb55280ffcbf0ad91a231e447d",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.264Z",
+      "updatedAt": "2026-04-28T17:12:34.264Z"
+    },
+    "rule/spec-roadmap": {
+      "type": "rule",
+      "name": "spec-roadmap",
+      "hash": "8b25e4e296b15fb54f144dd4acb2d37f76f5f58ac57a080f7e458e89c9ffd4f4",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.264Z",
+      "updatedAt": "2026-04-28T17:12:34.264Z"
+    },
+    "rule/spec-okr": {
+      "type": "rule",
+      "name": "spec-okr",
+      "hash": "d7ab3d1dd7e9511e2f4d55c20ab1fb45643b4995880d72c957cb04239b68e051",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.265Z",
+      "updatedAt": "2026-04-28T17:12:34.265Z"
+    },
+    "rule/spec-event-storming": {
+      "type": "rule",
+      "name": "spec-event-storming",
+      "hash": "a24142fe868f9f1d47f122816bb566d37c6df71ab6187ccb78602e0d13c14fe7",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.265Z",
+      "updatedAt": "2026-04-28T17:12:34.265Z"
+    },
+    "rule/spec-context-map": {
+      "type": "rule",
+      "name": "spec-context-map",
+      "hash": "6cfd83a037d0c73bf4cc9a296ca5015e7f7838787d3f8bcf014672ed16552016",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.265Z",
+      "updatedAt": "2026-04-28T17:12:34.265Z"
+    },
+    "rule/spec-ubiquitous-language": {
+      "type": "rule",
+      "name": "spec-ubiquitous-language",
+      "hash": "6ec68231725e0a9968b0550c99b86287b0c5f937213814662ed1448ff1cbbcb3",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.266Z",
+      "updatedAt": "2026-04-28T17:12:34.266Z"
+    },
+    "rule/spec-flow-decomposition": {
+      "type": "rule",
+      "name": "spec-flow-decomposition",
+      "hash": "7ba9a8b9c0fca2c2e285848f9096ac56b4094848fffd0f2896ebf06bb2005910",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.266Z",
+      "updatedAt": "2026-04-28T17:12:34.266Z"
+    },
+    "rule/spec-fsm": {
+      "type": "rule",
+      "name": "spec-fsm",
+      "hash": "e5ec7008fd05fe6af5204846051e07bd64256d496eef4d0e456003272760bcad",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.266Z",
+      "updatedAt": "2026-04-28T17:12:34.266Z"
+    },
+    "rule/spec-event-catalog": {
+      "type": "rule",
+      "name": "spec-event-catalog",
+      "hash": "fca08c884732e47054784f6f4b8b61491769c902878269faf164bce4cd5eb157",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.267Z",
+      "updatedAt": "2026-04-28T17:12:34.267Z"
+    },
+    "rule/spec-bdd-feature": {
+      "type": "rule",
+      "name": "spec-bdd-feature",
+      "hash": "028bdf306d00e97dbf1586890228bd1d19cd5b1369ba9a0e53fa63d7e76b9003",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.267Z",
+      "updatedAt": "2026-04-28T17:12:34.267Z"
+    },
+    "rule/spec-c4": {
+      "type": "rule",
+      "name": "spec-c4",
+      "hash": "4522e9f6c76c1cc7cb8f64bf4d39de676bb0f798e09f15c0095d41a2aaabb499",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.267Z",
+      "updatedAt": "2026-04-28T17:12:34.267Z"
+    },
+    "rule/spec-deployment": {
+      "type": "rule",
+      "name": "spec-deployment",
+      "hash": "fd445244b2b14404d26fceef7eca5cd8bb38c2402c69b6af8f7768a17ee259c7",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.268Z",
+      "updatedAt": "2026-04-28T17:12:34.268Z"
+    },
+    "rule/spec-service": {
+      "type": "rule",
+      "name": "spec-service",
+      "hash": "fa4d86662b7ad655c601532085ccd87ea52a735aa22e869630678d2ed02bdfe9",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.268Z",
+      "updatedAt": "2026-04-28T17:12:34.268Z"
+    },
+    "rule/spec-web-app": {
+      "type": "rule",
+      "name": "spec-web-app",
+      "hash": "a47f828db045180347f0fd471f517663a97bae62a51b7f84da2ce6c87530f003",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.268Z",
+      "updatedAt": "2026-04-28T17:12:34.268Z"
+    },
+    "rule/spec-seo": {
+      "type": "rule",
+      "name": "spec-seo",
+      "hash": "19c3f9b63b4fda762a1edd9831c6f72ece9d4b5feac5c76d031d45e3e2918445",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.269Z",
+      "updatedAt": "2026-04-28T17:12:34.269Z"
+    },
+    "rule/spec-support-matrix": {
+      "type": "rule",
+      "name": "spec-support-matrix",
+      "hash": "1f7ddc76c63185e4d2c18b7585ebbae8e2e61e96a8e4b04978f77279dcb75dee",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.269Z",
+      "updatedAt": "2026-04-28T17:12:34.269Z"
+    },
+    "rule/spec-infra-platform": {
+      "type": "rule",
+      "name": "spec-infra-platform",
+      "hash": "4351b07348cd207be6cadc8c609a99cf0771b8ffa088cb4a3c45413320ca5f6f",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.269Z",
+      "updatedAt": "2026-04-28T17:12:34.269Z"
+    },
+    "rule/spec-environments": {
+      "type": "rule",
+      "name": "spec-environments",
+      "hash": "fdecbcc6a9607dca21755a5b6a3131ebaa4c3ed53e317626d3b31e3df8189639",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.270Z",
+      "updatedAt": "2026-04-28T17:12:34.270Z"
+    },
+    "rule/spec-config-schema": {
+      "type": "rule",
+      "name": "spec-config-schema",
+      "hash": "039ee525a0f54d91faf9a500b31a7bb0b6357fdf03cef3ee565ed5d1135a34a0",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.270Z",
+      "updatedAt": "2026-04-28T17:12:34.270Z"
+    },
+    "rule/spec-cicd": {
+      "type": "rule",
+      "name": "spec-cicd",
+      "hash": "37e00403fd7c15ede1ebb6c769d896b7e28258eab3ec237102a0df270e130c90",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.271Z",
+      "updatedAt": "2026-04-28T17:12:34.271Z"
+    },
+    "rule/spec-backup-policy": {
+      "type": "rule",
+      "name": "spec-backup-policy",
+      "hash": "70bc9571a3f29d248728585ff21de110f8ae5b908591a45e02e212e26c7032bf",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.271Z",
+      "updatedAt": "2026-04-28T17:12:34.271Z"
+    },
+    "rule/spec-network-security": {
+      "type": "rule",
+      "name": "spec-network-security",
+      "hash": "3e34a89eb81c45390cefaf216f78fa31e5ac53dd801d8bc3dba3d56cb2b8056b",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.271Z",
+      "updatedAt": "2026-04-28T17:12:34.271Z"
+    },
+    "rule/spec-cdn": {
+      "type": "rule",
+      "name": "spec-cdn",
+      "hash": "9c47893fe4f77d3375a35d1e6ea57efca15834cfda273f34c8d83817c076a485",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.272Z",
+      "updatedAt": "2026-04-28T17:12:34.272Z"
+    },
+    "rule/spec-observability": {
+      "type": "rule",
+      "name": "spec-observability",
+      "hash": "5e2db857c5c51da4469cf28d856ba4d211dce82b556b120cbc059b5ad691a367",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.272Z",
+      "updatedAt": "2026-04-28T17:12:34.272Z"
+    },
+    "rule/spec-api": {
+      "type": "rule",
+      "name": "spec-api",
+      "hash": "f4727064baea48be2555f5c8bb7628c79ddf71e2aa8cf09cdc4851a76bd45882",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.272Z",
+      "updatedAt": "2026-04-28T17:12:34.272Z"
+    },
+    "rule/spec-asyncapi": {
+      "type": "rule",
+      "name": "spec-asyncapi",
+      "hash": "38f371bdc97b2c3c1458df1545771d0aba1fba26713281f211909ffbd2258483",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.272Z",
+      "updatedAt": "2026-04-28T17:12:34.272Z"
+    },
+    "rule/spec-grpc": {
+      "type": "rule",
+      "name": "spec-grpc",
+      "hash": "737cb2dc11b4dbd9dcf0594b38c8a0923071ed3745593c1c552ec72685a82775",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.273Z",
+      "updatedAt": "2026-04-28T17:12:34.273Z"
+    },
+    "rule/spec-api-versioning": {
+      "type": "rule",
+      "name": "spec-api-versioning",
+      "hash": "e75779abcafec222120d02d60fd1623092c31a62351309a3f5917e6cfd3bd767",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.273Z",
+      "updatedAt": "2026-04-28T17:12:34.273Z"
+    },
+    "rule/spec-error-catalog": {
+      "type": "rule",
+      "name": "spec-error-catalog",
+      "hash": "8ff8d22dd91d392852f8048ce8df5207977362a827486009a8ab2f723066e625",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.273Z",
+      "updatedAt": "2026-04-28T17:12:34.273Z"
+    },
+    "rule/spec-external-integration": {
+      "type": "rule",
+      "name": "spec-external-integration",
+      "hash": "540f6077ae2d5cfb9e1ebd0b8dd0c7a97ec6886831a9f505725a5fbf3be92864",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.274Z",
+      "updatedAt": "2026-04-28T17:12:34.274Z"
+    },
+    "rule/spec-data-model": {
+      "type": "rule",
+      "name": "spec-data-model",
+      "hash": "0b7ab030928b13143b57a818dc02bd27dba16fb176504231d822d4f4ff2d1206",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.274Z",
+      "updatedAt": "2026-04-28T17:12:34.274Z"
+    },
+    "rule/spec-dbml": {
+      "type": "rule",
+      "name": "spec-dbml",
+      "hash": "d245115317d5eb9e9768a408733e80e013433ff4e783c3a782a075b7dc17d0da",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.274Z",
+      "updatedAt": "2026-04-28T17:12:34.274Z"
+    },
+    "rule/spec-data-dictionary": {
+      "type": "rule",
+      "name": "spec-data-dictionary",
+      "hash": "6252c2acca1ad33a8ed6b11a8dd4b0803f845d7cc99ae39506ed9b68841f468b",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.275Z",
+      "updatedAt": "2026-04-28T17:12:34.275Z"
+    },
+    "rule/spec-migration-policy": {
+      "type": "rule",
+      "name": "spec-migration-policy",
+      "hash": "5bf762d2ae4e3eca7d0e0d06386a5afb7bcceeffcf5c828e6a9fa4650e00acb9",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.275Z",
+      "updatedAt": "2026-04-28T17:12:34.275Z"
+    },
+    "rule/spec-adr": {
+      "type": "rule",
+      "name": "spec-adr",
+      "hash": "e7960c7f3d72b2909987e26913de30f36ad6b60c86e0b6b52bc6e07c3199116a",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.275Z",
+      "updatedAt": "2026-04-28T17:12:34.275Z"
+    },
+    "rule/spec-pdr": {
+      "type": "rule",
+      "name": "spec-pdr",
+      "hash": "65c0d0fd3c22889580001cfe0d533cc37641d8b2a96106af40b47520e0264a37",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.276Z",
+      "updatedAt": "2026-04-28T17:12:34.276Z"
+    },
+    "rule/spec-rfc": {
+      "type": "rule",
+      "name": "spec-rfc",
+      "hash": "dbe5b62b4f2559b42387599324dda40cbd15462a407d3137c2b26196d3b8697b",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.276Z",
+      "updatedAt": "2026-04-28T17:12:34.276Z"
+    },
+    "rule/spec-cil": {
+      "type": "rule",
+      "name": "spec-cil",
+      "hash": "afdc82c05120f5a74df699d1f3bd56a9fc65c4a442b2aeb9e9eb3b68c0b54de3",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.276Z",
+      "updatedAt": "2026-04-28T17:12:34.276Z"
+    },
+    "rule/spec-rtm": {
+      "type": "rule",
+      "name": "spec-rtm",
+      "hash": "188c65e2bb4186db2af1d0618e30d75571d0201152a7e116f2314bb44845c051",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.277Z",
+      "updatedAt": "2026-04-28T17:12:34.277Z"
+    },
+    "rule/spec-dependency-map": {
+      "type": "rule",
+      "name": "spec-dependency-map",
+      "hash": "f9eeb350922571ce1fb40e71fe33e6bfc41ab13fe2bb54c5097142b6abd73cb9",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.277Z",
+      "updatedAt": "2026-04-28T17:12:34.277Z"
+    },
+    "rule/spec-crr": {
+      "type": "rule",
+      "name": "spec-crr",
+      "hash": "f5a37308c867e96f946ee77152c667069b923547f0a3882b2da939d853afca1c",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.277Z",
+      "updatedAt": "2026-04-28T17:12:34.277Z"
+    },
+    "rule/spec-release-plan": {
+      "type": "rule",
+      "name": "spec-release-plan",
+      "hash": "4a8050ef40713b1fe19d8a4194ae78e0b4138e0ec5976f95ec80a9fd98addbc8",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.277Z",
+      "updatedAt": "2026-04-28T17:12:34.277Z"
+    },
+    "rule/spec-runbook": {
+      "type": "rule",
+      "name": "spec-runbook",
+      "hash": "3c6dedd2fd71a34972d0b556797a3ad854b0533b1c4b57b0d1fa72b3a88a0d32",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.278Z",
+      "updatedAt": "2026-04-28T17:12:34.278Z"
+    },
+    "rule/spec-incident-playbook": {
+      "type": "rule",
+      "name": "spec-incident-playbook",
+      "hash": "cb21279b369012c0f716b8d2eeef74a3e3d0d3052982b37a1a53c528ada01d64",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.278Z",
+      "updatedAt": "2026-04-28T17:12:34.278Z"
+    },
+    "rule/spec-dr-runbook": {
+      "type": "rule",
+      "name": "spec-dr-runbook",
+      "hash": "c62e626550aafaaa2d54835af98d20e97fef51f51107b562b3edd045e431008c",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.278Z",
+      "updatedAt": "2026-04-28T17:12:34.278Z"
+    },
+    "rule/spec-test-strategy": {
+      "type": "rule",
+      "name": "spec-test-strategy",
+      "hash": "24c72c90e75c6fd2c8b2354ece149cb22907b45a43901f1c6c73345f35c04f5b",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.279Z",
+      "updatedAt": "2026-04-28T17:12:34.279Z"
+    },
+    "rule/spec-slo-sla": {
+      "type": "rule",
+      "name": "spec-slo-sla",
+      "hash": "77f37d11c1e9dd52858f7b340abc66b39fdc8521dc94fc709b84c5b9333c5fe0",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.279Z",
+      "updatedAt": "2026-04-28T17:12:34.279Z"
+    },
+    "rule/spec-performance-budget": {
+      "type": "rule",
+      "name": "spec-performance-budget",
+      "hash": "2e5e65b3771710789a14b00a205ee847a9e74dded579ccd07fc470b0fd25acf9",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.279Z",
+      "updatedAt": "2026-04-28T17:12:34.279Z"
+    },
+    "rule/spec-capacity-plan": {
+      "type": "rule",
+      "name": "spec-capacity-plan",
+      "hash": "2ab61b8e018ba9826a0266ac9c98babac9110187173953323385da158e4e7ab2",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.280Z",
+      "updatedAt": "2026-04-28T17:12:34.280Z"
+    },
+    "rule/spec-threat-model": {
+      "type": "rule",
+      "name": "spec-threat-model",
+      "hash": "1e6d845400d32c9bf5fb0617871b6eb51e7b380a50ef5f0692bbd7907767bc51",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.280Z",
+      "updatedAt": "2026-04-28T17:12:34.280Z"
+    },
+    "rule/spec-privacy": {
+      "type": "rule",
+      "name": "spec-privacy",
+      "hash": "65b95871e31eb81710ed951c48bb84998ec0cba6d24bf9ce7c876771cea68057",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.281Z",
+      "updatedAt": "2026-04-28T17:12:34.281Z"
+    },
+    "rule/spec-data-classification": {
+      "type": "rule",
+      "name": "spec-data-classification",
+      "hash": "237927da2b85e83d0d5ee4c7185ba3435f044beefce34b8078acbbd4f075722f",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.281Z",
+      "updatedAt": "2026-04-28T17:12:34.281Z"
+    },
+    "rule/spec-analytics-event": {
+      "type": "rule",
+      "name": "spec-analytics-event",
+      "hash": "751664a09e0c6e5897695b4597b68f82a875f7b82459c742167de1e20875fc93",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.282Z",
+      "updatedAt": "2026-04-28T17:12:34.282Z"
+    },
+    "rule/spec-feature-flag": {
+      "type": "rule",
+      "name": "spec-feature-flag",
+      "hash": "a864e5717174a37c9fb87bac0df619ff0c2350730d0650246c7c67cba553203e",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.282Z",
+      "updatedAt": "2026-04-28T17:12:34.282Z"
     },
     "hook/auto-format": {
       "type": "hook",
@@ -66,457 +860,219 @@
       "matcher": "Write|Edit",
       "hash": "f733e65ae57fd2c2e9644fb16dbf6a3f5688e7bae7e4d8a3407c03e31c11da7f",
       "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.419Z",
-      "updatedAt": "2026-04-17T15:53:14.419Z"
+      "installedAt": "2026-04-28T17:12:34.282Z",
+      "updatedAt": "2026-04-28T17:12:34.282Z"
     },
-    "skill/doc-brd": {
-      "type": "skill",
-      "name": "doc-brd",
-      "hash": "61fe0a45e96ab2d9085decf79e3794a9ac637209487819d990e03bc3414602e9",
+    "hook/ssot-frontmatter-validator": {
+      "type": "hook",
+      "name": "ssot-frontmatter-validator",
+      "lifecycle": "PostToolUse",
+      "matcher": "Edit|Write|MultiEdit",
+      "companionDirName": "ssot-frontmatter-validator",
+      "hash": "a8ce55dc1e47a9dc5fa22700221ee27d699a70fbe7d00057606d687bb60b278c",
       "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.420Z",
-      "updatedAt": "2026-04-17T15:53:14.420Z"
-    },
-    "skill/doc-mrd": {
-      "type": "skill",
-      "name": "doc-mrd",
-      "hash": "3cc1dd94fa51f42df48c7910455a3f6797306255c41b8bcefbae3e579390536d",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.422Z",
-      "updatedAt": "2026-04-17T15:53:14.422Z"
-    },
-    "skill/doc-prd": {
-      "type": "skill",
-      "name": "doc-prd",
-      "hash": "604ecd19981c92bab3c006a944c7b2910e6cacd614be418b8be0454dc8928e89",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.425Z",
-      "updatedAt": "2026-04-17T15:53:14.425Z"
-    },
-    "skill/doc-roadmap": {
-      "type": "skill",
-      "name": "doc-roadmap",
-      "hash": "f3d2693a990dfd52abc80a4a409d266dd50651fe2e62f679b7aa01267afb865c",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.427Z",
-      "updatedAt": "2026-04-17T15:53:14.427Z"
-    },
-    "skill/doc-workflow": {
-      "type": "skill",
-      "name": "doc-workflow",
-      "hash": "9b445a0a4c4759b71abfbb06ece939e74c4d3b460a41bb1c2c30c3df92cb2ade",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.429Z",
-      "updatedAt": "2026-04-17T15:53:14.429Z"
-    },
-    "skill/spec-ubiquitous-language": {
-      "type": "skill",
-      "name": "spec-ubiquitous-language",
-      "hash": "2379ea081577077294e84e1d183815ca801597a28dadf729573e393ad5694c25",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.430Z",
-      "updatedAt": "2026-04-17T15:53:14.430Z"
-    },
-    "rule/spec-event-storming": {
-      "type": "rule",
-      "name": "spec-event-storming",
-      "hash": "f2c333f661091044bdf7611e94a0bcb8c0582e1c06fb302efc8ad38995c6ac65",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.431Z",
-      "updatedAt": "2026-04-17T15:53:14.431Z"
-    },
-    "rule/arch-ddd-strategic": {
-      "type": "rule",
-      "name": "arch-ddd-strategic",
-      "hash": "8ebefa28980914ef88d94a1f69aac1ee08679f2306600be5f41fe6dff85b105a",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.431Z",
-      "updatedAt": "2026-04-17T15:53:14.431Z"
-    },
-    "rule/api-design": {
-      "type": "rule",
-      "name": "api-design",
-      "hash": "dca894b411c4a6904885f26867dfb92b7499efedb944579d0853ed2f347e74f5",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.432Z",
-      "updatedAt": "2026-04-17T15:53:14.432Z"
-    },
-    "rule/data-modeling": {
-      "type": "rule",
-      "name": "data-modeling",
-      "hash": "1519e709eee71c6a0b153b4b78beb64b465d47ee22c1e2d5a6b92a5fa8acd4a1",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.432Z",
-      "updatedAt": "2026-04-17T15:53:14.432Z"
-    },
-    "rule/arch-ddd-tactical": {
-      "type": "rule",
-      "name": "arch-ddd-tactical",
-      "hash": "52611310dd45624ce1521b5acb8e2f0996ff8b59b557c62cbcd93d2cb6e94e1f",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.433Z",
-      "updatedAt": "2026-04-17T15:53:14.433Z"
-    },
-    "rule/spec-adr": {
-      "type": "rule",
-      "name": "spec-adr",
-      "hash": "547fa8c9d7fe9d49e69ab7ca39ee66a659adf967bc0f97d6671a556c7b169488",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.433Z",
-      "updatedAt": "2026-04-17T15:53:14.433Z"
-    },
-    "rule/spec-api": {
-      "type": "rule",
-      "name": "spec-api",
-      "hash": "f26be58d106eb20c63b91341286297d2521861a93b7939f128c16e9fe02f9d65",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.433Z",
-      "updatedAt": "2026-04-17T15:53:14.433Z"
-    },
-    "skill/doc-km": {
-      "type": "skill",
-      "name": "doc-km",
-      "hash": "9debd46dc09642b33a37bf1ba824dcbe8f0d6e4d7df504aba362483560c4fd93",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.434Z",
-      "updatedAt": "2026-04-17T15:53:14.434Z"
-    },
-    "skill/obsidian-bases": {
-      "type": "skill",
-      "name": "obsidian-bases",
-      "hash": "18480900c19075da5325f6913f9cfd58c8577339ae9ced83519e583b56d30123",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.435Z",
-      "updatedAt": "2026-04-17T15:53:14.435Z"
-    },
-    "skill/obsidian-cli": {
-      "type": "skill",
-      "name": "obsidian-cli",
-      "hash": "ca385e570abee22c89090cdd169478908458cca8abb5527031ffe16eb840491d",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.435Z",
-      "updatedAt": "2026-04-17T15:53:14.435Z"
-    },
-    "skill/obsidian-defuddle": {
-      "type": "skill",
-      "name": "obsidian-defuddle",
-      "hash": "054b4ed67a5e618d292cc6e21bbb9fc299d1a5aabf3fe82e3883e015d9c63775",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.436Z",
-      "updatedAt": "2026-04-17T15:53:14.436Z"
-    },
-    "skill/obsidian-json-canvas": {
-      "type": "skill",
-      "name": "obsidian-json-canvas",
-      "hash": "1102a2fe143aaa52bfe0d7946881b8e1f03dbbb000d70c45f5692a37299a74dc",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.437Z",
-      "updatedAt": "2026-04-17T15:53:14.437Z"
-    },
-    "skill/obsidian-markdown": {
-      "type": "skill",
-      "name": "obsidian-markdown",
-      "hash": "fbed41876d3703f10f864e335b08ab586c010ae5c4a63c827ad90936c92f9557",
-      "scope": "project",
-      "installedAt": "2026-04-17T15:53:14.438Z",
-      "updatedAt": "2026-04-17T15:53:14.438Z"
-    },
-    "rule/code-style": {
-      "type": "rule",
-      "name": "code-style",
-      "hash": "3da4dc4341501a7281e2378e37f699aa78b547ce5eff583bc381d620e0dfdf7f",
-      "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.162Z",
-      "updatedAt": "2026-04-18T10:48:32.162Z"
-    },
-    "rule/code-naming": {
-      "type": "rule",
-      "name": "code-naming",
-      "hash": "b7f02306e141ef731686044978d5b12b3c86927112cba499bacc2f604c79ad98",
-      "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.163Z",
-      "updatedAt": "2026-04-18T10:48:32.163Z"
-    },
-    "rule/code-error-handling": {
-      "type": "rule",
-      "name": "code-error-handling",
-      "hash": "2c115d81044414f3a189b81eff11088f49b3ace88514c3d6c41edb10b1d86590",
-      "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.163Z",
-      "updatedAt": "2026-04-18T10:48:32.163Z"
-    },
-    "rule/code-testing": {
-      "type": "rule",
-      "name": "code-testing",
-      "hash": "10742d5f82b576eacaf7014b1a7e1f8b941efaf8d2d10e82e9b83f0850e8d484",
-      "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.163Z",
-      "updatedAt": "2026-04-18T10:48:32.163Z"
-    },
-    "rule/code-refactoring": {
-      "type": "rule",
-      "name": "code-refactoring",
-      "hash": "701d34266e4e1137cf4bbc30c1fbfec07223d2f4d7e5fe3cee3cd3822dff761a",
-      "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.164Z",
-      "updatedAt": "2026-04-18T10:48:32.164Z"
-    },
-    "rule/code-typescript": {
-      "type": "rule",
-      "name": "code-typescript",
-      "hash": "3f580006eb79779636c29fb64a63d25f79d4e7b638bbaba1361e99eb9018504a",
-      "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.164Z",
-      "updatedAt": "2026-04-18T10:48:32.164Z"
-    },
-    "rule/code-review": {
-      "type": "rule",
-      "name": "code-review",
-      "hash": "4a922c29a936c4979a24d5a5cb9d5c7d7eed911afa180fad558cb9438e8767d1",
-      "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.165Z",
-      "updatedAt": "2026-04-18T10:48:32.165Z"
-    },
-    "rule/collab-definition-of-done": {
-      "type": "rule",
-      "name": "collab-definition-of-done",
-      "hash": "e376400d51d9d1891304ca9f213cace2a509d98bbdc6d96ac50d4efba775bc32",
-      "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.165Z",
-      "updatedAt": "2026-04-18T10:48:32.165Z"
-    },
-    "rule/arch-dependency": {
-      "type": "rule",
-      "name": "arch-dependency",
-      "hash": "88a1e6c3c8bf13b0a6456a6d72ec02d16419a65a420aead93cdf524c721bd3e5",
-      "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.165Z",
-      "updatedAt": "2026-04-18T10:48:32.165Z"
-    },
-    "rule/arch-layering": {
-      "type": "rule",
-      "name": "arch-layering",
-      "hash": "0d1aba80022e0ed626ce79dd184cb7fb66db711a8066e4abe134d5d305cf359d",
-      "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.165Z",
-      "updatedAt": "2026-04-18T10:48:32.165Z"
-    },
-    "rule/security-env-config": {
-      "type": "rule",
-      "name": "security-env-config",
-      "hash": "fc035f6124cac1f989936e0fb4e4fe02f23c5b9843136a088b3eccca7e0f361b",
-      "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.166Z",
-      "updatedAt": "2026-04-18T10:48:32.166Z"
-    },
-    "mcp/github-mcp-server": {
-      "type": "mcp",
-      "name": "github-mcp-server",
-      "serverKey": "io.github.github/github-mcp-server",
-      "hash": "305b22d69ea90e95a83ba0c659e56c5ad2944be3ea7c0d9f5e41fb0bd6bf0b4e",
-      "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.166Z",
-      "updatedAt": "2026-04-18T10:48:32.166Z"
+      "installedAt": "2026-04-28T17:12:34.283Z",
+      "updatedAt": "2026-04-28T17:12:34.283Z"
     },
     "skill/uiux-adapt": {
       "type": "skill",
       "name": "uiux-adapt",
       "hash": "4341d9a2e4d52176df43894f5896d4608eceec3fccd0a390a0e985bf148068ae",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.167Z",
-      "updatedAt": "2026-04-18T10:48:32.167Z"
+      "installedAt": "2026-04-28T17:12:34.284Z",
+      "updatedAt": "2026-04-28T17:12:34.284Z"
     },
     "skill/uiux-animate": {
       "type": "skill",
       "name": "uiux-animate",
       "hash": "b303fef76f0467d843417ab417e3fa9a60793e423c49746a4632917deea2b655",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.167Z",
-      "updatedAt": "2026-04-18T10:48:32.167Z"
+      "installedAt": "2026-04-28T17:12:34.284Z",
+      "updatedAt": "2026-04-28T17:12:34.284Z"
     },
     "skill/uiux-audit": {
       "type": "skill",
       "name": "uiux-audit",
       "hash": "df4e700e40c20523d4346505f7c82949deaeca648867cca91de59b4e8888ea8f",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.168Z",
-      "updatedAt": "2026-04-18T10:48:32.168Z"
+      "installedAt": "2026-04-28T17:12:34.285Z",
+      "updatedAt": "2026-04-28T17:12:34.285Z"
     },
     "skill/uiux-bolder": {
       "type": "skill",
       "name": "uiux-bolder",
       "hash": "c0d995ae3c57c3c44b4f0974c0e6ffec1da30ed6cf2273e2a2f4cdbba76b29cf",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.168Z",
-      "updatedAt": "2026-04-18T10:48:32.168Z"
+      "installedAt": "2026-04-28T17:12:34.286Z",
+      "updatedAt": "2026-04-28T17:12:34.286Z"
     },
     "skill/uiux-clarify": {
       "type": "skill",
       "name": "uiux-clarify",
       "hash": "67dbeeba75d95aab9baa1b1a45be2984262ee63b1277411fd510533c95cac085",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.169Z",
-      "updatedAt": "2026-04-18T10:48:32.169Z"
+      "installedAt": "2026-04-28T17:12:34.286Z",
+      "updatedAt": "2026-04-28T17:12:34.286Z"
     },
     "skill/uiux-colorize": {
       "type": "skill",
       "name": "uiux-colorize",
       "hash": "5deff14fd5cc8cc9c3684c572f9cb6282dbdf85b4fb934ffd56a23c538ca5827",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.169Z",
-      "updatedAt": "2026-04-18T10:48:32.169Z"
+      "installedAt": "2026-04-28T17:12:34.286Z",
+      "updatedAt": "2026-04-28T17:12:34.286Z"
     },
     "skill/uiux-critique": {
       "type": "skill",
       "name": "uiux-critique",
       "hash": "d3b3a3787691ebe2a3fca470af2c763d0a6ee356be8264509e12bdabd5425247",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.169Z",
-      "updatedAt": "2026-04-18T10:48:32.169Z"
+      "installedAt": "2026-04-28T17:12:34.287Z",
+      "updatedAt": "2026-04-28T17:12:34.287Z"
     },
     "skill/uiux-delight": {
       "type": "skill",
       "name": "uiux-delight",
       "hash": "d5f4887cb1a546a147f7d5cb407cd3df04898b03daf2a356e52482bd23130f7c",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.170Z",
-      "updatedAt": "2026-04-18T10:48:32.170Z"
+      "installedAt": "2026-04-28T17:12:34.287Z",
+      "updatedAt": "2026-04-28T17:12:34.287Z"
     },
     "skill/uiux-delivery": {
       "type": "skill",
       "name": "uiux-delivery",
       "hash": "6976057dc52ae01fee65eaf625be012e9d433d19fce55a0e1f1bde298fcefe4e",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.172Z",
-      "updatedAt": "2026-04-18T10:48:32.172Z"
+      "installedAt": "2026-04-28T17:12:34.289Z",
+      "updatedAt": "2026-04-28T17:12:34.289Z"
     },
     "skill/uiux-distill": {
       "type": "skill",
       "name": "uiux-distill",
       "hash": "62a9ccebefa194922352d6aff4e64f14606caf2fd3f1a069c5a7f8eeac2cd19b",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.173Z",
-      "updatedAt": "2026-04-18T10:48:32.173Z"
+      "installedAt": "2026-04-28T17:12:34.289Z",
+      "updatedAt": "2026-04-28T17:12:34.289Z"
     },
     "skill/uiux-extract": {
       "type": "skill",
       "name": "uiux-extract",
       "hash": "29a95b41df0787b0f3d7a3b3cfbcb907fdbaecd12774881ce78fb9cbc9af43bd",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.174Z",
-      "updatedAt": "2026-04-18T10:48:32.174Z"
+      "installedAt": "2026-04-28T17:12:34.290Z",
+      "updatedAt": "2026-04-28T17:12:34.290Z"
     },
     "skill/uiux-frontend-design": {
       "type": "skill",
       "name": "uiux-frontend-design",
       "hash": "62b9e6353b09f8cde7133d3c9c55ceece1c33c8c7ff721bea732e8ffe4244027",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.176Z",
-      "updatedAt": "2026-04-18T10:48:32.176Z"
+      "installedAt": "2026-04-28T17:12:34.291Z",
+      "updatedAt": "2026-04-28T17:12:34.291Z"
     },
     "skill/uiux-harden": {
       "type": "skill",
       "name": "uiux-harden",
       "hash": "18f1bb5e876edc521614937f15fc7de3437c8762553bd231cf7c9df577a2a952",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.176Z",
-      "updatedAt": "2026-04-18T10:48:32.176Z"
+      "installedAt": "2026-04-28T17:12:34.292Z",
+      "updatedAt": "2026-04-28T17:12:34.292Z"
     },
     "skill/uiux-normalize": {
       "type": "skill",
       "name": "uiux-normalize",
       "hash": "d9141ef7726adc74858f610f1b211103d3143fb0d66458711fb00a0869080abd",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.177Z",
-      "updatedAt": "2026-04-18T10:48:32.177Z"
+      "installedAt": "2026-04-28T17:12:34.292Z",
+      "updatedAt": "2026-04-28T17:12:34.292Z"
     },
     "skill/uiux-onboard": {
       "type": "skill",
       "name": "uiux-onboard",
       "hash": "6f485f68dcfb3b2ad0672573c35d61f5670da276edb732db5c37924b4bfb4dfd",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.177Z",
-      "updatedAt": "2026-04-18T10:48:32.177Z"
+      "installedAt": "2026-04-28T17:12:34.293Z",
+      "updatedAt": "2026-04-28T17:12:34.293Z"
     },
     "skill/uiux-optimize": {
       "type": "skill",
       "name": "uiux-optimize",
       "hash": "180eebed322fd3ea3d2ab743b1b772f657fd1eeee77a2f537063d48f9c9633ef",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.177Z",
-      "updatedAt": "2026-04-18T10:48:32.177Z"
+      "installedAt": "2026-04-28T17:12:34.294Z",
+      "updatedAt": "2026-04-28T17:12:34.294Z"
     },
     "skill/uiux-polish": {
       "type": "skill",
       "name": "uiux-polish",
       "hash": "90ed50227a28d1686edd9fa77153be93b8a8d54229a339e9c0b6a794690112c8",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.178Z",
-      "updatedAt": "2026-04-18T10:48:32.178Z"
+      "installedAt": "2026-04-28T17:12:34.295Z",
+      "updatedAt": "2026-04-28T17:12:34.295Z"
     },
     "skill/uiux-quieter": {
       "type": "skill",
       "name": "uiux-quieter",
       "hash": "21b41c61cbc3ad01cab5f2d35af04267965b9eb29cf3d31c6b0f3a797cdf85d9",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.179Z",
-      "updatedAt": "2026-04-18T10:48:32.179Z"
+      "installedAt": "2026-04-28T17:12:34.296Z",
+      "updatedAt": "2026-04-28T17:12:34.296Z"
     },
     "skill/uiux-teach-impeccable": {
       "type": "skill",
       "name": "uiux-teach-impeccable",
       "hash": "17832298cd9925ad479219e89d71951bb8f2c486e7375c35d2f94f3d144ab33c",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.179Z",
-      "updatedAt": "2026-04-18T10:48:32.179Z"
+      "installedAt": "2026-04-28T17:12:34.296Z",
+      "updatedAt": "2026-04-28T17:12:34.296Z"
     },
     "skill/animation-algorithmic-art": {
       "type": "skill",
       "name": "animation-algorithmic-art",
       "hash": "6e8884bbf385c64eedcc358c156df3729668ceff5da0ecd90be7188005d97d61",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.181Z",
-      "updatedAt": "2026-04-18T10:48:32.181Z"
+      "installedAt": "2026-04-28T17:12:34.299Z",
+      "updatedAt": "2026-04-28T17:12:34.299Z"
     },
     "rule/frontend-component": {
       "type": "rule",
       "name": "frontend-component",
-      "hash": "b0e08f67598dba6c5b3bcdf8d7cd307c938ba3f0bb30a73964aefadb15505df4",
+      "hash": "abd3527d6baad69eb14b880684387254090f5b71433cfdf52e88c2f78ed22969",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.181Z",
-      "updatedAt": "2026-04-18T10:48:32.181Z"
-    },
-    "rule/frontend-state": {
-      "type": "rule",
-      "name": "frontend-state",
-      "hash": "9c3a9c59337c8663a37869b579f883d54bf108036258d3cbd8d60c82fbb2a7a4",
-      "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.181Z",
-      "updatedAt": "2026-04-18T10:48:32.181Z"
+      "installedAt": "2026-04-28T17:12:34.299Z",
+      "updatedAt": "2026-04-28T17:12:34.299Z"
     },
     "rule/a11y-standard": {
       "type": "rule",
       "name": "a11y-standard",
-      "hash": "e32be5b9f3e6819b2ab57e2dfec721f94db8dc91af16d4f2e56448a06c843865",
+      "hash": "79321c7cd1eae56e64327848f6824149958925ced8560d8c227f691b76c14b7b",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.182Z",
-      "updatedAt": "2026-04-18T10:48:32.182Z"
+      "installedAt": "2026-04-28T17:12:34.300Z",
+      "updatedAt": "2026-04-28T17:12:34.300Z"
     },
-    "rule/i18n-standard": {
+    "rule/arch-dependency": {
       "type": "rule",
-      "name": "i18n-standard",
-      "hash": "4fd0daf5a3c804f353b07b21863ed65f58a5ee464331a8820ef683290ff52b90",
+      "name": "arch-dependency",
+      "hash": "2ec785e0d1d5a822575b928cc486c3448a8730a5a2a4f3940a03636eae3160ad",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.182Z",
-      "updatedAt": "2026-04-18T10:48:32.182Z"
+      "installedAt": "2026-04-28T17:12:34.300Z",
+      "updatedAt": "2026-04-28T17:12:34.300Z"
     },
-    "rule/perf-optimization": {
+    "rule/arch-layering": {
       "type": "rule",
-      "name": "perf-optimization",
-      "hash": "84c2b7c47430d2bcf3137d08a33d5472e2090b7013c78eb26539ec13741deb5f",
+      "name": "arch-layering",
+      "hash": "fe0dfefd4feb2f709feefb9b15e71c848eb5cfeef0818fb36d3d5be27cb74660",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.182Z",
-      "updatedAt": "2026-04-18T10:48:32.182Z"
+      "installedAt": "2026-04-28T17:12:34.301Z",
+      "updatedAt": "2026-04-28T17:12:34.301Z"
+    },
+    "rule/code-typescript": {
+      "type": "rule",
+      "name": "code-typescript",
+      "hash": "2fd081ba8b63539020f97891b16fd6731b057a7057ba73778789018c7669d07c",
+      "scope": "project",
+      "installedAt": "2026-04-28T17:12:34.301Z",
+      "updatedAt": "2026-04-28T17:12:34.301Z"
     },
     "mcp/chrome-devtools-mcp": {
       "type": "mcp",
@@ -524,8 +1080,203 @@
       "serverKey": "io.github.ChromeDevTools/chrome-devtools-mcp",
       "hash": "ed530771a06d038536127102eaea6655406042a7add7074a7d83f5acf1a2de89",
       "scope": "project",
-      "installedAt": "2026-04-18T10:48:32.182Z",
-      "updatedAt": "2026-04-18T10:48:32.182Z"
+      "installedAt": "2026-04-28T17:12:34.302Z",
+      "updatedAt": "2026-04-28T17:12:34.302Z"
+    }
+  },
+  "linkedReferences": {
+    "skill/ssot-requirements-pyramid": {
+      "requirements-pyramid-traceability": {
+        "sourceHash": "184c17746f7c3be1c73f5179952cae1133b918896de0f6adff9306e5a5272bbb",
+        "linkedAt": "2026-04-28T17:12:34.216Z",
+        "updatedAt": "2026-04-28T17:12:34.216Z"
+      }
+    },
+    "skill/ssot-ddd-modeling": {
+      "ddd-building-blocks-deep-dive": {
+        "sourceHash": "5bf8e0cecfc888edb44248f7e76b2cf6d3481c8fc1f2fd5d04ad6c658ea41073",
+        "linkedAt": "2026-04-28T17:12:34.218Z",
+        "updatedAt": "2026-04-28T17:12:34.218Z"
+      },
+      "event-storming-cheatsheet": {
+        "sourceHash": "e34cd7885de1d3626095b26fccbddf94d023bc6f1b2995fb03a9c3abf39f36d9",
+        "linkedAt": "2026-04-28T17:12:34.219Z",
+        "updatedAt": "2026-04-28T17:12:34.219Z"
+      }
+    },
+    "skill/ssot-ubiquitous-language": {
+      "ddd-building-blocks-deep-dive": {
+        "sourceHash": "5bf8e0cecfc888edb44248f7e76b2cf6d3481c8fc1f2fd5d04ad6c658ea41073",
+        "linkedAt": "2026-04-28T17:12:34.220Z",
+        "updatedAt": "2026-04-28T17:12:34.220Z"
+      }
+    },
+    "skill/ssot-flow-decomposition": {
+      "ddd-building-blocks-deep-dive": {
+        "sourceHash": "5bf8e0cecfc888edb44248f7e76b2cf6d3481c8fc1f2fd5d04ad6c658ea41073",
+        "linkedAt": "2026-04-28T17:12:34.222Z",
+        "updatedAt": "2026-04-28T17:12:34.222Z"
+      }
+    },
+    "skill/ssot-event-modeling": {
+      "event-storming-cheatsheet": {
+        "sourceHash": "e34cd7885de1d3626095b26fccbddf94d023bc6f1b2995fb03a9c3abf39f36d9",
+        "linkedAt": "2026-04-28T17:12:34.224Z",
+        "updatedAt": "2026-04-28T17:12:34.224Z"
+      },
+      "ddd-building-blocks-deep-dive": {
+        "sourceHash": "5bf8e0cecfc888edb44248f7e76b2cf6d3481c8fc1f2fd5d04ad6c658ea41073",
+        "linkedAt": "2026-04-28T17:12:34.224Z",
+        "updatedAt": "2026-04-28T17:12:34.224Z"
+      }
+    },
+    "skill/ssot-fsm-modeling": {
+      "ddd-building-blocks-deep-dive": {
+        "sourceHash": "5bf8e0cecfc888edb44248f7e76b2cf6d3481c8fc1f2fd5d04ad6c658ea41073",
+        "linkedAt": "2026-04-28T17:12:34.226Z",
+        "updatedAt": "2026-04-28T17:12:34.226Z"
+      }
+    },
+    "skill/ssot-bdd-feature": {
+      "gherkin-syntax-guide": {
+        "sourceHash": "108106f007dfc1be24ed44e308fd3276aa2a2b20628cf68e8ad274ed040d1576",
+        "linkedAt": "2026-04-28T17:12:34.228Z",
+        "updatedAt": "2026-04-28T17:12:34.228Z"
+      }
+    },
+    "skill/ssot-c4-architecting": {
+      "c4-model-explained": {
+        "sourceHash": "0b5a1a31932fac78399aed791bed7fb068a6507002000745ba491ff1fed0f8d7",
+        "linkedAt": "2026-04-28T17:12:34.229Z",
+        "updatedAt": "2026-04-28T17:12:34.229Z"
+      }
+    },
+    "skill/ssot-api-contract-design": {
+      "openapi-3.1-spec-summary": {
+        "sourceHash": "00e7b7f250269409d9fbec2ecb53cd86c86d9bcda8f8470e790b77836946ca28",
+        "linkedAt": "2026-04-28T17:12:34.231Z",
+        "updatedAt": "2026-04-28T17:12:34.231Z"
+      }
+    },
+    "skill/ssot-data-modeling": {
+      "dbml-syntax-guide": {
+        "sourceHash": "5340b61e8403fb94647995e65e6f8722cfc9c57478a84cb8ed32eff0028a456f",
+        "linkedAt": "2026-04-28T17:12:34.232Z",
+        "updatedAt": "2026-04-28T17:12:34.232Z"
+      },
+      "ddd-building-blocks-deep-dive": {
+        "sourceHash": "5bf8e0cecfc888edb44248f7e76b2cf6d3481c8fc1f2fd5d04ad6c658ea41073",
+        "linkedAt": "2026-04-28T17:12:34.233Z",
+        "updatedAt": "2026-04-28T17:12:34.233Z"
+      }
+    },
+    "skill/ssot-service-spec": {
+      "c4-model-explained": {
+        "sourceHash": "0b5a1a31932fac78399aed791bed7fb068a6507002000745ba491ff1fed0f8d7",
+        "linkedAt": "2026-04-28T17:12:34.234Z",
+        "updatedAt": "2026-04-28T17:12:34.234Z"
+      }
+    },
+    "skill/ssot-infra-spec": {
+      "c4-model-explained": {
+        "sourceHash": "0b5a1a31932fac78399aed791bed7fb068a6507002000745ba491ff1fed0f8d7",
+        "linkedAt": "2026-04-28T17:12:34.238Z",
+        "updatedAt": "2026-04-28T17:12:34.238Z"
+      }
+    },
+    "skill/ssot-bff-spec": {
+      "c4-model-explained": {
+        "sourceHash": "0b5a1a31932fac78399aed791bed7fb068a6507002000745ba491ff1fed0f8d7",
+        "linkedAt": "2026-04-28T17:12:34.243Z",
+        "updatedAt": "2026-04-28T17:12:34.243Z"
+      }
+    },
+    "skill/ssot-impact-analysis": {
+      "requirements-pyramid-traceability": {
+        "sourceHash": "184c17746f7c3be1c73f5179952cae1133b918896de0f6adff9306e5a5272bbb",
+        "linkedAt": "2026-04-28T17:12:34.245Z",
+        "updatedAt": "2026-04-28T17:12:34.245Z"
+      }
+    },
+    "skill/ssot-security-modeling": {
+      "stride-threat-modeling": {
+        "sourceHash": "6120a221f14504f42e4070e5cee4ed163eb5236a06b6870e6b7228deec1e00d4",
+        "linkedAt": "2026-04-28T17:12:34.248Z",
+        "updatedAt": "2026-04-28T17:12:34.248Z"
+      }
+    },
+    "skill/ssot-nfr-design": {
+      "sli-slo-sla-glossary": {
+        "sourceHash": "52077337001e17d4720a7d3c3939b40f1de647c53aea5f0faccb185be3706d5f",
+        "linkedAt": "2026-04-28T17:12:34.250Z",
+        "updatedAt": "2026-04-28T17:12:34.250Z"
+      }
+    },
+    "skill/ssot-test-strategy": {
+      "test-pyramid-strategies": {
+        "sourceHash": "b2410484a2a6eee24622bc0146285ef077d62716abb5e65528d1c994b49d5c7f",
+        "linkedAt": "2026-04-28T17:12:34.251Z",
+        "updatedAt": "2026-04-28T17:12:34.251Z"
+      }
+    },
+    "skill/ssot-okr-modeling": {
+      "requirements-pyramid-traceability": {
+        "sourceHash": "184c17746f7c3be1c73f5179952cae1133b918896de0f6adff9306e5a5272bbb",
+        "linkedAt": "2026-04-28T17:12:34.255Z",
+        "updatedAt": "2026-04-28T17:12:34.255Z"
+      }
+    }
+  },
+  "references": {
+    "ddd-building-blocks-deep-dive": {
+      "sourceHash": "5bf8e0cecfc888edb44248f7e76b2cf6d3481c8fc1f2fd5d04ad6c658ea41073",
+      "installedAt": "2026-04-29T02:47:21.978Z",
+      "updatedAt": "2026-04-29T02:54:21.175Z"
+    },
+    "event-storming-cheatsheet": {
+      "sourceHash": "e34cd7885de1d3626095b26fccbddf94d023bc6f1b2995fb03a9c3abf39f36d9",
+      "installedAt": "2026-04-29T02:47:21.978Z",
+      "updatedAt": "2026-04-29T02:54:21.163Z"
+    },
+    "gherkin-syntax-guide": {
+      "sourceHash": "108106f007dfc1be24ed44e308fd3276aa2a2b20628cf68e8ad274ed040d1576",
+      "installedAt": "2026-04-29T02:47:21.994Z",
+      "updatedAt": "2026-04-29T02:54:21.167Z"
+    },
+    "c4-model-explained": {
+      "sourceHash": "0b5a1a31932fac78399aed791bed7fb068a6507002000745ba491ff1fed0f8d7",
+      "installedAt": "2026-04-29T02:47:21.996Z",
+      "updatedAt": "2026-04-29T02:54:21.183Z"
+    },
+    "openapi-3.1-spec-summary": {
+      "sourceHash": "00e7b7f250269409d9fbec2ecb53cd86c86d9bcda8f8470e790b77836946ca28",
+      "installedAt": "2026-04-29T02:47:21.998Z",
+      "updatedAt": "2026-04-29T02:54:21.173Z"
+    },
+    "dbml-syntax-guide": {
+      "sourceHash": "5340b61e8403fb94647995e65e6f8722cfc9c57478a84cb8ed32eff0028a456f",
+      "installedAt": "2026-04-29T02:47:22.001Z",
+      "updatedAt": "2026-04-29T02:54:21.175Z"
+    },
+    "requirements-pyramid-traceability": {
+      "sourceHash": "184c17746f7c3be1c73f5179952cae1133b918896de0f6adff9306e5a5272bbb",
+      "installedAt": "2026-04-29T02:47:22.012Z",
+      "updatedAt": "2026-04-29T02:54:21.195Z"
+    },
+    "stride-threat-modeling": {
+      "sourceHash": "6120a221f14504f42e4070e5cee4ed163eb5236a06b6870e6b7228deec1e00d4",
+      "installedAt": "2026-04-29T02:47:22.015Z",
+      "updatedAt": "2026-04-29T02:54:21.188Z"
+    },
+    "sli-slo-sla-glossary": {
+      "sourceHash": "52077337001e17d4720a7d3c3939b40f1de647c53aea5f0faccb185be3706d5f",
+      "installedAt": "2026-04-29T02:47:22.017Z",
+      "updatedAt": "2026-04-29T02:54:21.190Z"
+    },
+    "test-pyramid-strategies": {
+      "sourceHash": "b2410484a2a6eee24622bc0146285ef077d62716abb5e65528d1c994b49d5c7f",
+      "installedAt": "2026-04-29T02:47:22.020Z",
+      "updatedAt": "2026-04-29T02:54:21.193Z"
     }
   }
 }
